@@ -1,0 +1,16 @@
+SayIt English v0.2
+
+FIXED FROM v0.1
+- Removed the fixed 15-question Grammar list.
+- Added generated Grammar sessions (10 questions/session) across 15 skills.
+- Grammar weakness tracking now affects what gets reviewed next.
+- Vocabulary bank expanded from 24 to 104 A2-B1 words.
+- Vocabulary is now interactive: meaning choice, context choice, and typed recall.
+- Spelling randomizes from the full vocabulary bank.
+- Dictation expanded to 40 randomized sentences.
+- Writing Coach output is structured and short: score, correction, max 4 concrete errors, natural version.
+- Improve Sentence output is structured: corrected, natural, stronger, vocabulary replacements.
+- Removed the tiny Qwen LLM from Writing/Improve because it was slow and hallucinated mixed Arabic/English output.
+- Writing/Improve now run instantly with a deterministic local English engine.
+- Speaking still uses Whisper Tiny English locally; only ~75 MB one-time model download is needed.
+- Progress now tracks Grammar, Vocabulary, Spelling, Dictation, Speaking and Writing separately.

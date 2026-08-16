@@ -1,0 +1,16 @@
+SAYIT ENGLISH 0.2 - BUILD WITHOUT ANDROID STUDIO
+
+1) Create a new GitHub repository.
+2) Upload all files/folders from this SayItOfflineEnglish folder to the repository root.
+   IMPORTANT: upload the hidden .github folder too.
+3) Open the repository -> Actions.
+4) Open "Build SayIt APK" -> Run workflow.
+5) Wait for the green check.
+6) Open the completed run -> Artifacts -> SayIt-Offline-English-APK.
+7) Download and extract the artifact.
+8) Install app-debug.apk on the Android phone.
+
+After installing:
+- Grammar / Vocabulary / Spelling / Dictation / Writing / Improve work immediately.
+- For Speaking, open the home page and download the ~75 MB Whisper model once.
+- After that, speaking recognition works locally/offline too.
