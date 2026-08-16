@@ -21,8 +21,8 @@ android {
         applicationId = "com.sayit.offlineenglish"
         minSdk = 24
         targetSdk = 35
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "1.0.0-alpha1"
 
         ndk {
             abiFilters += listOf("arm64-v8a")
@@ -68,6 +68,5 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     debugImplementation("androidx.compose.ui:ui-tooling")
 
-    // On-device speech recognition runtime.
     implementation("dev.ffmpegkit-maintained:whisper-android:1.0.0")
 }
